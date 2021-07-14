@@ -1,0 +1,139 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    padding-bottom: 500px;
+    /* position: relative; */
+}
+.first-section{
+    width: 100%;
+    height:677px ;
+    justify-content: center;
+    background-color: #2D25A0;
+    
+}
+.first-part{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+    /* grid-gap: 50px; */
+}
+.first-info{
+    margin-left: 156px;
+    color: #FFFFFF;
+    
+
+}
+button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: #FFFFFF;   
+}
+button:hover{
+    background-color: mediumslateblue;
+    transform: rotate(-60deg);
+    color: black;
+}
+h3{
+    font-size: 64px;
+}
+
+.first-section img{
+    width:556px;
+    height: 438px;
+}
+.second-part{
+    background-color: #FFFFFF;
+    width: 1050px;
+    height: 474px;
+    place-items: center;
+    padding:50px;
+
+
+   
+}
+.all-players{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 8%;
+    /* margin-right: 50px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    grid-gap: 20px;
+    
+    
+    
+}
+.player{
+    background-color:#FFFFFF;
+    width: 300px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+.second-part img{
+    width: 300px;
+    height: 256px;
+}
+h2{
+    font-size: 28px;
+}
+p{
+    /* font-size: 16px; */
+    color: #6C6C6C;
+    font-style: normal;
+    font-weight: normal;
+    font-feature-settings: 'liga' off;
+    line-height: 26px;
+}
+footer{
+
+    margin-top: 85%;
+    width:483px;
+    height: 213px;
+    margin-left: 25%;
+    /* display: block; */
+    grid-template-columns: repeat(1,1fr);
+    /* grid-row-gap: 5px; */
+    /* justify-content: center; */
+    align-items: center;
+}
+footer img{
+    width: 100%;
+}
+.icon{
+    margin-left: 200px;
+    font-size: 2em;
+    color:#969BAB;
+    padding: 2px;  
+}
+.finish{
+    margin-left: 30%;
+}
+@media only screen and (max-width:688px) {
+    .first-part{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width:688px) {
+    .all-players{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-content: center;
+        
+    }
+}
+@media only screen and (max-width:688px) {
+    footer{
+    display: flex;
+    align-items: center;
+    } 
+}
